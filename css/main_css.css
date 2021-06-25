@@ -185,11 +185,30 @@ th {
 	padding: 0 0 10% 10%;	
 }
 
- #intro p {
+#intro p {
 	text-align: center;
-	
 }
 
+
+/* Links in intro */
+#intro p a {
+	color: hsl(0, 100%, 0%);       
+	text-decoration: none;
+	transition: .4s color;
+}
+
+
+/* Hover change of links*/
+#intro p a:hover {
+  color: hsl(89, 31%, 53%);
+}
+
+/* Active change of links */
+#intro p a.active {
+  background-color: hsl(89, 31%, 53%);
+  color: #444;
+  cursor: default;
+}
 
 
 
