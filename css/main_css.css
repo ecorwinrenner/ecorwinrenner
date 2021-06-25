@@ -1,0 +1,174 @@
+/*****************************WHOLE PAGE STYLE******************************************************************************/
+
+body {
+	background-color: hsl(0, 10%, 87%);
+}
+
+/**************************** HEADER STYLE *********************************************************************************/
+
+#site-title {
+	color: hsl(120, 73%, 19%);
+	text-align: center; 
+}
+
+header {
+	margin: 0;
+	padding: 10px 20px;
+	background-color: hsl(89, 53%, 57%);
+	display: block;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+/* Style of Navigation bar */
+nav ul {
+  list-style: none;
+  background-color: hsl(89, 70%, 69%);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+nav li {
+    width: 11%;
+	padding: 5px;
+    border-right: 2px solid hsl(120, 31%, 64%);
+    height: 20px;
+    line-height: 20px;
+    font-size: 100%;
+    display: inline-block;
+    margin-right: -4px;
+	 
+  }
+  
+  
+ /* Removing unnecessary border seperation */
+nav li:last-child{
+	 border-right: none;
+}
+
+nav li li{
+	border-right: none;
+}
+
+/* Links in header */
+nav a {
+  text-decoration: none;
+  color: hsl(120, 73%, 19%);
+  display: block;
+  padding-left: 15px;
+  transition: .5s background-color;
+}
+
+/* Hover change */
+nav a:hover {
+  background-color: hsl(89, 31%, 53%);
+}
+
+/* Active change */
+nav a.active {
+  background-color: hsl(89, 31%, 53%);
+  color: #444;
+  cursor: default;
+}
+
+/****** SUB MENUS ********/
+
+nav li li {
+  font-size: 100%;
+}
+
+nav > ul > li {
+   text-align: center;
+}
+
+nav > ul > li > a {
+    padding-left: 0;
+}
+
+/* Don't display without hover */
+nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+/* Do display with hover */
+nav li:hover ul {
+   display: block;
+}
+
+nav li ul li {
+   display: block;
+ }
+ 
+ 
+/******************************************** HEADERS *****************************************/
+
+h1{
+	text-align: center;
+}
+
+h2 {
+	text-align: center; 
+}
+
+h3 {
+	text-align: center;
+}
+
+/******************************* MAIN *******************************************/
+
+main {
+	display: block;
+	padding: 2.5;
+}
+.list {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto; 
+}
+
+.list h2, .list h3 {
+	text-align: left;
+}
+
+.Welcome {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto; 
+}
+
+
+/***************************** TABLES ******************************************/
+
+table {
+	width: 80%;
+	display: block;
+	border-collapse: collapse;
+	margin: 0 auto;
+} 
+
+td {
+	border: 3px solid hsl(120, 31%, 64%);
+	background-color: hsl(0, 59%, 98%);
+	padding: 10px;
+}
+
+th {
+	border: 3px solid hsl(120, 31%, 64%);
+	background-color: hsl(89, 53%, 57%);
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
