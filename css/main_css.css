@@ -143,6 +143,7 @@ main {
 }
 
 
+
 /***************************** TABLES ******************************************/
 
 table {
@@ -164,9 +165,29 @@ th {
 	padding: 10px;
 }
 
+/***************************** Homepage sepecifics ******************************************/
 
+.introsec {
+	display: block;
+	background-color: hsl(291deg 24% 77%);
+	overflow: hidden;
+	padding: 10% 10% 5% 5%;
+}
 
+#headshot {
+	max-width: 30%;
+	height: auto;
+	float: left; 
+	/*padding: 5% 5% 10% 10%;*/
+}
 
+#intro {
+	padding: 0 0 10% 10%;
+	display: flex;
+	
+
+	
+}
 
 
 
