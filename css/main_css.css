@@ -182,13 +182,13 @@ th {
 }
 
 #intro {
-	padding: 0 0 10% 10%;
-
-	
-
-	
+	padding: 0 0 10% 10%;	
 }
 
+ #intro p {
+	text-align: center;
+	
+}
 
 
 
